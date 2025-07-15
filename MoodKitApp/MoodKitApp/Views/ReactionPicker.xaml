@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="MoodKitApp.Controls.ReactionPicker"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    HeightRequest="200"
+    WidthRequest="200">
+
+    <ContentView.Resources>
+        <Style x:Key="EmojiButtonStyle" TargetType="ImageButton">
+            <Setter Property="HeightRequest" Value="35" />
+            <Setter Property="WidthRequest" Value="35" />
+            <Setter Property="Aspect" Value="AspectFit" />
+            <Setter Property="BackgroundColor" Value="Transparent" />
+            <Setter Property="AbsoluteLayout.LayoutFlags" Value="PositionProportional" />
+        </Style>
+    </ContentView.Resources>
+
+    <Grid
+        x:Name="ReactionContainer"
+        BackgroundColor="Transparent"
+        HeightRequest="200"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        WidthRequest="200">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <ImageButton
+            x:Name="Emoji1"
+            Grid.Row="0"
+            Grid.Column="1"
+            Margin="16,30,0,-5"
+            Clicked="EmojiButton_Clicked"
+            CommandParameter="happy"
+            HorizontalOptions="Center"
+            Source="happy.png"
+            Style="{StaticResource EmojiButtonStyle}"
+            VerticalOptions="Center" />
+        <ImageButton
+            x:Name="Emoji2"
+            Grid.Row="1"
+            Grid.Column="0"
+            Margin="16,5,0,10"
+            Clicked="EmojiButton_Clicked"
+            CommandParameter="bad"
+            HorizontalOptions="Center"
+            Source="bad.png"
+            Style="{StaticResource EmojiButtonStyle}"
+            VerticalOptions="Center" />
+        <ImageButton
+            x:Name="Emoji3"
+            Grid.Row="1"
+            Grid.Column="2"
+            Margin="0,0,0,0"
+            Clicked="EmojiButton_Clicked"
+            CommandParameter="angry"
+            HorizontalOptions="Center"
+            Source="angry.png"
+            Style="{StaticResource EmojiButtonStyle}"
+            VerticalOptions="Center" />
+        <ImageButton
+            x:Name="Emoji4"
+            Grid.Row="2"
+            Grid.Column="0"
+            Margin="0,0,0,0"
+            Clicked="EmojiButton_Clicked"
+            CommandParameter="sad"
+            HorizontalOptions="Center"
+            Source="sad.png"
+            Style="{StaticResource EmojiButtonStyle}"
+            VerticalOptions="Center" />
+        <ImageButton
+            x:Name="Emoji5"
+            Grid.Row="2"
+            Grid.Column="2"
+            Margin="25,0,0,0"
+            Clicked="EmojiButton_Clicked"
+            CommandParameter="good"
+            HorizontalOptions="Center"
+            Source="good.png"
+            Style="{StaticResource EmojiButtonStyle}"
+            VerticalOptions="Center" />
+
+    </Grid>
+
+</ContentView>

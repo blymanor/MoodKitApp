@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MoodKitApp.Views.SignupPage">
+    
+    <StackLayout 
+       Padding="30"
+       Spacing="10">
+
+        <Label 
+            Text="Start the journey!"
+            FontFamily="PlusJakartaSans"
+            FontAttributes="Bold" 
+            FontSize="25" />
+        <Label 
+            Text="Sign up to have a better version of yourself with moodkit"
+            FontFamily="PlusJakartaSans" 
+            FontSize="16" />
+
+       <Label
+                Text="Username"
+                FontFamily="PlusJakartaSans"
+                FontAttributes="Bold"
+                FontSize="16"
+                Margin="0,10,0,0"/>
+            <Border BackgroundColor="#F0F0F0"
+                    HeightRequest="45"     
+                    Padding="10,0"         
+                    StrokeThickness="0">   
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="UsernameEntry"
+                       Placeholder="Enter your username"
+                       BackgroundColor="Transparent" 
+                       VerticalOptions="Center"/>   
+            </Border>
+
+       <Label
+                Text="Email"
+                FontFamily="PlusJakartaSans"
+                FontAttributes="Bold"
+                FontSize="16"
+                Margin="0,10,0,0"/>
+            <Border BackgroundColor="#F0F0F0"
+                    HeightRequest="45"
+                    Padding="10,0"
+                    StrokeThickness="0">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="EmailEntry"
+                       Placeholder="Enter your email"
+                       BackgroundColor="Transparent"
+                       VerticalOptions="Center"/>
+            </Border>
+
+       <Label
+                Text="Password"
+                FontFamily="PlusJakartaSans"
+                FontAttributes="Bold"
+                FontSize="16"
+                Margin="0,10,0,0"/>
+            <Border BackgroundColor="#F0F0F0"
+                    HeightRequest="45"
+                    Padding="10,0"
+                    StrokeThickness="0">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="PasswordEntry"
+                       Placeholder="Enter your password"
+                       IsPassword="True"
+                       BackgroundColor="Transparent"
+                       VerticalOptions="Center"/>
+            </Border>
+
+       <Label
+                Text="Confirm Password"
+                FontFamily="PlusJakartaSans"
+                FontAttributes="Bold"
+                FontSize="16"
+                Margin="0,10,0,0"/>
+            <Border BackgroundColor="#F0F0F0"
+                    HeightRequest="45"
+                    Padding="10,0"
+                    StrokeThickness="0">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="ConfirmPasswordEntry"
+                       Placeholder="Enter your confirm password"
+                       IsPassword="True"
+                       BackgroundColor="Transparent"
+                       VerticalOptions="Center"/>
+            </Border>
+
+        <Button
+                x:Name="DoneButton"
+                Text="Done"
+                FontFamily="PlusJakartaSans"
+                FontAttributes="Bold"
+                BackgroundColor="#4868EC" TextColor="White"
+                CornerRadius="25"        
+                HeightRequest="50"
+                Margin="0,30,0,0"       
+                Clicked="DoneButton_Clicked"/> 
+
+    </StackLayout>
+</ContentPage>

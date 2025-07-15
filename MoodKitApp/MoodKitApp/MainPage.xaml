@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MoodKitApp.MainPage"
+             Shell.NavBarIsVisible="False"> <ScrollView>
+
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="15"
+            VerticalOptions="Start">
+
+            <Label
+                Text="moodkit"
+                FontFamily="PoetsenOne"
+                FontSize="48"
+                TextColor="#30459D" HorizontalOptions="Center"
+                Margin="0,40,0,30"/> 
+                
+            <Label
+                Text="Username"
+                FontFamily="PlusJakartaSans"
+                FontAttributes="Bold"
+                FontSize="16"/>
+            <Border BackgroundColor="#F0F0F0"
+                    HeightRequest="45"     
+                    Padding="10,0"         
+                    StrokeThickness="0">   
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="UsernameEntry"
+                       Placeholder="Enter your username"
+                       BackgroundColor="Transparent" 
+                       VerticalOptions="Center"/>   
+            </Border>
+
+            <Label
+                Text="Password"
+                FontFamily="PlusJakartaSans"
+                FontAttributes="Bold"
+                FontSize="16"
+                Margin="0,10,0,0"/>
+            <Border BackgroundColor="#F0F0F0"
+                    HeightRequest="45"
+                    Padding="10,0"
+                    StrokeThickness="0">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="PasswordEntry"
+                       Placeholder="Enter your password"
+                       IsPassword="True"
+                       BackgroundColor="Transparent"
+                       VerticalOptions="Center"/>
+            </Border>
+
+            <Button
+                x:Name="SignInButton"
+                Text="Sign in"
+                BackgroundColor="#4868EC" TextColor="White"
+                CornerRadius="25"        
+                HeightRequest="50"
+                Margin="0,20,0,0"       
+                Clicked="SignInButton_Clicked"/> 
+                
+            <Button
+                x:Name="SignUpButton"
+                Text="Sign up"
+                BackgroundColor="#4868EC"
+                TextColor="White"
+                CornerRadius="25"
+                HeightRequest="50"
+                Clicked="SignUpButton_Clicked"/> 
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MoodKitApp.Views.MoodTrackerPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+
+            <Label
+                x:Name="DateLabel"
+                Margin="0,0,0,15" FontAttributes="Bold"
+                FontSize="20"
+                HorizontalOptions="Center"
+                Text="March 2025 AD" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <VerticalStackLayout
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    HorizontalOptions="Start"
+                    Spacing="2"
+                    VerticalOptions="Start">
+                    <ImageButton
+                        x:Name="Star1"
+                        Clicked="Star_Clicked"
+                        HeightRequest="15"
+                        Source="star_outline.png"
+                        WidthRequest="15" />
+                    <ImageButton
+                        x:Name="Star2"
+                        Clicked="Star_Clicked"
+                        HeightRequest="15"
+                        Source="star_outline.png"
+                        WidthRequest="15" />
+                    <ImageButton
+                        x:Name="Star3"
+                        Clicked="Star_Clicked"
+                        HeightRequest="15"
+                        Source="star_outline.png"
+                        WidthRequest="15" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    HorizontalOptions="Start"
+                    Spacing="5"
+                    VerticalOptions="Start">
+                    <Label
+                        Margin="50,14,0,15" FontAttributes="Bold"
+                        FontSize="13"
+                        HorizontalOptions="Start"
+                        Text="Rate"
+                        TextColor="#30459D" />
+                    <Label
+                        Margin="50,5,0,10"  FontAttributes="Bold"
+                        FontSize="13"
+                        HorizontalOptions="Start"
+                        Text="your"
+                        TextColor="#30459D" />
+                    <Label
+                        Margin="50,15,0,10" FontAttributes="Bold"
+                        FontSize="13"
+                        HorizontalOptions="Start"
+                        Text="feelings"
+                        TextColor="#30459D" />
+                </VerticalStackLayout>
+
+                <Grid
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Margin="0,20,100,0"
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Center">
+                    <Border
+                        Padding="0"
+                        BackgroundColor="#DAE1FB"
+                        HeightRequest="120"
+                        HorizontalOptions="Center"
+                        StrokeShape="RoundRectangle 60"
+                        StrokeThickness="0"
+                        VerticalOptions="Center"
+                        WidthRequest="120">
+                        <Border.Clip>
+                            <EllipseGeometry
+                                Center="60,60"
+                                RadiusX="60"
+                                RadiusY="60" />
+                        </Border.Clip>
+                        <Image
+                            x:Name="SelectedEmojiImage"
+                            HeightRequest="100"
+                            HorizontalOptions="Center"
+                            Source="happy.png" VerticalOptions="Center"
+                            WidthRequest="100" />
+                    </Border>
+                </Grid>
+
+            </Grid>
+
+            <Label
+                Margin="0,15,0,5" FontAttributes="Bold"
+                FontSize="16"
+                HorizontalOptions="Center"
+                Text="I'm Feeling" />
+            <Entry
+                x:Name="FeelingEntry"
+                Margin="0,0,0,10"
+                HorizontalOptions="Fill" HorizontalTextAlignment="Center"
+                Placeholder="how are you feel?"
+                PlaceholderColor="#30459D" />
+
+            <Label
+                x:Name="DayLabel"
+                Margin="0,0,0,15" HorizontalOptions="Center"
+                Text="Sun, 4"
+                TextColor="#FF414141" />
+
+            <Border
+                Padding="10" BackgroundColor="#F0F0F0"
+                StrokeThickness="0">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10" />
+                </Border.StrokeShape>
+                <Editor  x:Name="DescriptionEntry"
+                    AutoSize="TextChanges" BackgroundColor="Transparent"
+                    HeightRequest="100" HorizontalOptions="Fill"
+                    Placeholder="Describe your feelings"
+                    VerticalOptions="Fill"/>
+            </Border>
+
+            <Image
+                x:Name="UserSelectedImage"
+                Margin="10,10,0,0"
+                Aspect="AspectFit"
+                HeightRequest="150"
+                HorizontalOptions="Center" IsVisible="False" WidthRequest="200" />
+
+            <Grid
+                Padding="0,20,0,0" ColumnDefinitions="*,Auto"
+                ColumnSpacing="10"
+                HorizontalOptions="Fill">
+                <Button
+                    x:Name="SaveButton"
+                    Grid.Column="0"
+                    Margin="0,0,0,0" BackgroundColor="#4868EC"
+                    Clicked="SaveButton_Clicked"
+                    CornerRadius="20"
+                    FontAttributes="Bold"
+                    FontFamily="PlusJakartaSans"
+                    HorizontalOptions="Fill"
+                    Text="Save"
+                    TextColor="White" />
+                <ImageButton
+                    x:Name="PickImageButton"
+                    Grid.Column="1"
+                    Margin="0,0,0,0" BackgroundColor="Transparent"
+                    Clicked="PickImageButton_Clicked"
+                    CornerRadius="20"
+                    HeightRequest="40"
+                    HorizontalOptions="End"
+                    Source="pic.png" VerticalOptions="Center"
+                    WidthRequest="40" />
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

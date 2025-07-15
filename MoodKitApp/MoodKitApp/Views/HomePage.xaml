@@ -1,0 +1,162 @@
+<ContentPage
+    x:Class="MoodKitApp.Views.HomePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:MoodKitApp.Controls;assembly=MoodKitApp"
+    xmlns:models="clr-namespace:MoodKitApp.Models"
+    xmlns:converters="clr-namespace:MoodKitApp.Converters">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:IntToBoolConverter x:Key="IntToBoolConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            IconImageSource="logout.png"          
+            Clicked="LogoutButton_Clicked" 
+            Order="Primary"        
+            Priority="0" />        
+    </ContentPage.ToolbarItems>
+
+    <Grid RowDefinitions="Auto, Auto, Auto, *, Auto" RowSpacing="0">
+        <controls:ReactionPicker
+            x:Name="reactionPicker"
+            Grid.Row="4"
+            HeightRequest="200"
+            HorizontalOptions="Center"
+            IsVisible="False"
+            VerticalOptions="End"
+            ZIndex="10" />
+
+        <Image
+            x:Name="HeartImage"
+            Grid.Row="0"
+            Margin="0,-60,0,0"
+            Aspect="AspectFill"
+            HeightRequest="{OnPlatform iOS=300, Android=350, WinUI=300}"
+            HorizontalOptions="Fill"
+            Source="heart.png"
+            VerticalOptions="Start" />
+
+        <Grid
+            Grid.Row="0"
+            Margin="20,90,0,0"
+            Padding="0"
+            BackgroundColor="Transparent">
+            <Label
+                x:Name="DailyMessageLabel"
+                FontFamily="PlusJakartaSans"
+                FontSize="20"
+                HorizontalOptions="Start"
+                Text="Today might be rough, &#x0a;but you passed it!&#x0a;How you'd feel?"
+                TextColor="White"
+                VerticalOptions="Start" />
+        </Grid>
+
+        <!-- <Button
+            x:Name="ViewDailyTrackerButton"
+            Grid.Row="2" Text="View Daily Moods"
+            BackgroundColor="#4868EC"
+            FontFamily="PlusJakartaSans"
+            Clicked="ViewDailyTrackerButton_Clicked"
+            HorizontalOptions="Center"
+            Margin="0,10,0,0"/> -->
+
+        <Border
+            Grid.Row="1" Margin="0,15,0,0"
+            Padding="10"
+            BackgroundColor="#F0F0F0"
+            HeightRequest="80"
+            HorizontalOptions="Center"
+            Stroke="#F0F0F0"
+            StrokeShape="RoundRectangle 15,15,15,15"
+            StrokeThickness="0"
+            VerticalOptions="Start"
+            WidthRequest="150">
+            <Label
+                x:Name="DateLabel"
+                FontAttributes="Bold"
+                FontFamily="PlusJakartaSans"
+                FontSize="18"
+                HorizontalOptions="Center"
+                Text="2025 AD&#x0a;       May"
+                TextColor="Black"
+                VerticalOptions="Center" />
+        </Border>
+
+        <CollectionView
+            x:Name="MoodEntriesCollectionView"
+            Grid.Row="3" Margin="20"
+            ItemsSource="{Binding MoodEntries}"
+            VerticalOptions="Fill"
+            SelectionMode="None">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout ItemSpacing="10" Orientation="Vertical" />
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:MoodRecord">
+                    <Grid ColumnDefinitions="Auto, Auto, *">
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer CommandParameter="{Binding .}" Tapped="MoodEntry_Tapped" />
+                        </Grid.GestureRecognizers>
+                        <Image Grid.Column="0" HeightRequest="30" Source="{Binding MoodEmojiSource}" WidthRequest="30" VerticalOptions="Center" />
+                        <StackLayout Grid.Column="1" Orientation="Horizontal" VerticalOptions="Center" Margin="10,0,0,0">
+                            <Image HeightRequest="20" IsVisible="{Binding Star1Source}" Source="{Binding Star1Source}" WidthRequest="20" />
+                            <Image HeightRequest="20" IsVisible="{Binding Star2Source}" Source="{Binding Star2Source}" WidthRequest="20" />
+                            <Image HeightRequest="20" IsVisible="{Binding Star3Source}" Source="{Binding Star3Source}" WidthRequest="20" />
+                        </StackLayout>
+                        <Label Grid.Column="2" HorizontalOptions="End" Text="{Binding CreatedAt, StringFormat='{0:ddd, dd MMM}'}" VerticalOptions="Center" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Label
+            x:Name="NoEntriesLabel"
+            Grid.Row="3" 
+            Margin="0,0,0,0"
+            Text="No mood entries yet. Tap '+' to add one!"
+            IsVisible="False"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            FontSize="16"
+            TextColor="Gray" />
+
+        <Label
+            x:Name="HowWasYourDayLabel"
+            Grid.Row="3"
+            Margin="0,-20" FontAttributes="Bold"
+            FontFamily="PlusJakartaSans"
+            FontSize="16"
+            HorizontalOptions="Center"
+            IsVisible="False"
+            Text="How was your day?"
+            TextColor="Black"
+            VerticalOptions="End" ZIndex="100" />
+
+        <StackLayout
+            Grid.Row="4" Padding="20"
+            HorizontalOptions="Center"
+            VerticalOptions="End">
+            <ImageButton
+                x:Name="AddEntryButton"
+                BackgroundColor="Transparent"
+                Clicked="AddEntryButton_Clicked"
+                CornerRadius="30"
+                HeightRequest="40"
+                Source="plus.png"
+                WidthRequest="40" />
+            <ImageButton
+                x:Name="ClosePopupButton"
+                BackgroundColor="Transparent"
+                Clicked="ClosePopupButton_Clicked"
+                CornerRadius="30"
+                HeightRequest="40"
+                IsVisible="False"
+                Source="ellipse_cross.png"
+                WidthRequest="40" />
+        </StackLayout>
+    </Grid>
+</ContentPage>

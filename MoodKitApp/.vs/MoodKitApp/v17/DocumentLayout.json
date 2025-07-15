@@ -1,0 +1,442 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MoodKitApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\converters\\inttoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\converters\\inttoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\model\\datauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\model\\datauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\model\\moodrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\model\\moodrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\views\\todaymoodpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\views\\todaymoodpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\views\\todaymoodpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\views\\todaymoodpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\views\\reactionpicker.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\views\\reactionpicker.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\views\\moodtrackerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\views\\moodtrackerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\views\\diarynamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\views\\diarynamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\views\\dailymoodtrackerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\views\\dailymoodtrackerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\views\\dailymoodtrackerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\views\\dailymoodtrackerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\views\\reactionpicker.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\views\\reactionpicker.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\views\\moodtrackerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\views\\moodtrackerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\views\\diarynamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\views\\diarynamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dewdu\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.60\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\moodkitapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\moodkitapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|c:\\moodkitapp\\moodkitapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC1B2684-829E-4531-B856-448624FE877C}|MoodKitApp\\MoodKitApp.csproj|solutionrelative:moodkitapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IntToBoolConverter.cs",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Converters\\IntToBoolConverter.cs",
+              "RelativeDocumentMoniker": "MoodKitApp\\Converters\\IntToBoolConverter.cs",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Converters\\IntToBoolConverter.cs",
+              "RelativeToolTip": "MoodKitApp\\Converters\\IntToBoolConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:22:37.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TodayMoodPage.xaml.cs",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Views\\TodayMoodPage.xaml.cs",
+              "RelativeDocumentMoniker": "MoodKitApp\\Views\\TodayMoodPage.xaml.cs",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Views\\TodayMoodPage.xaml.cs",
+              "RelativeToolTip": "MoodKitApp\\Views\\TodayMoodPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:19:55.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MoodTrackerPage.xaml.cs",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Views\\MoodTrackerPage.xaml.cs",
+              "RelativeDocumentMoniker": "MoodKitApp\\Views\\MoodTrackerPage.xaml.cs",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Views\\MoodTrackerPage.xaml.cs",
+              "RelativeToolTip": "MoodKitApp\\Views\\MoodTrackerPage.xaml.cs",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAAwHsBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:55:50.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Views\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "MoodKitApp\\Views\\HomePage.xaml.cs",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Views\\HomePage.xaml.cs",
+              "RelativeToolTip": "MoodKitApp\\Views\\HomePage.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwNEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:56:12.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReactionPicker.xaml.cs",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Views\\ReactionPicker.xaml.cs",
+              "RelativeDocumentMoniker": "MoodKitApp\\Views\\ReactionPicker.xaml.cs",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Views\\ReactionPicker.xaml.cs",
+              "RelativeToolTip": "MoodKitApp\\Views\\ReactionPicker.xaml.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAwF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T09:16:53.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TodayMoodPage.xaml",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Views\\TodayMoodPage.xaml",
+              "RelativeDocumentMoniker": "MoodKitApp\\Views\\TodayMoodPage.xaml",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Views\\TodayMoodPage.xaml",
+              "RelativeToolTip": "MoodKitApp\\Views\\TodayMoodPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T08:39:38.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MoodKitApp\\MainPage.xaml",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\MainPage.xaml",
+              "RelativeToolTip": "MoodKitApp\\MainPage.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T08:53:12.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MoodKitApp\\MainPage.xaml.cs",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "MoodKitApp\\MainPage.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwLEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:58:44.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MoodRecord.cs",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Model\\MoodRecord.cs",
+              "RelativeDocumentMoniker": "MoodKitApp\\Model\\MoodRecord.cs",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Model\\MoodRecord.cs",
+              "RelativeToolTip": "MoodKitApp\\Model\\MoodRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:53:48.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataUser.cs",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Model\\DataUser.cs",
+              "RelativeDocumentMoniker": "MoodKitApp\\Model\\DataUser.cs",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Model\\DataUser.cs",
+              "RelativeToolTip": "MoodKitApp\\Model\\DataUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:23:41.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Data\\User.cs",
+              "RelativeDocumentMoniker": "MoodKitApp\\Data\\User.cs",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Data\\User.cs",
+              "RelativeToolTip": "MoodKitApp\\Data\\User.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:55:06.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DiarynamePage.xaml.cs",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Views\\DiarynamePage.xaml.cs",
+              "RelativeDocumentMoniker": "MoodKitApp\\Views\\DiarynamePage.xaml.cs",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Views\\DiarynamePage.xaml.cs",
+              "RelativeToolTip": "MoodKitApp\\Views\\DiarynamePage.xaml.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAwGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:01:06.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "MoodKitApp\\Views\\HomePage.xaml",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Views\\HomePage.xaml",
+              "RelativeToolTip": "MoodKitApp\\Views\\HomePage.xaml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAmwJMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T08:07:05.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DailyMoodTrackerPage.xaml.cs",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Views\\DailyMoodTrackerPage.xaml.cs",
+              "RelativeDocumentMoniker": "MoodKitApp\\Views\\DailyMoodTrackerPage.xaml.cs",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Views\\DailyMoodTrackerPage.xaml.cs",
+              "RelativeToolTip": "MoodKitApp\\Views\\DailyMoodTrackerPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:56:27.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReactionPicker.xaml",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Views\\ReactionPicker.xaml",
+              "RelativeDocumentMoniker": "MoodKitApp\\Views\\ReactionPicker.xaml",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Views\\ReactionPicker.xaml",
+              "RelativeToolTip": "MoodKitApp\\Views\\ReactionPicker.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T08:07:13.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MoodTrackerPage.xaml",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Views\\MoodTrackerPage.xaml",
+              "RelativeDocumentMoniker": "MoodKitApp\\Views\\MoodTrackerPage.xaml",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Views\\MoodTrackerPage.xaml",
+              "RelativeToolTip": "MoodKitApp\\Views\\MoodTrackerPage.xaml",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAmwLIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T11:02:52.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SignupPage.xaml.cs",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Views\\SignupPage.xaml.cs",
+              "RelativeDocumentMoniker": "MoodKitApp\\Views\\SignupPage.xaml.cs",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Views\\SignupPage.xaml.cs",
+              "RelativeToolTip": "MoodKitApp\\Views\\SignupPage.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAwM0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T09:15:54.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DailyMoodTrackerPage.xaml",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Views\\DailyMoodTrackerPage.xaml",
+              "RelativeDocumentMoniker": "MoodKitApp\\Views\\DailyMoodTrackerPage.xaml",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Views\\DailyMoodTrackerPage.xaml",
+              "RelativeToolTip": "MoodKitApp\\Views\\DailyMoodTrackerPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T12:04:03.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MoodKitApp\\MauiProgram.cs",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\MauiProgram.cs",
+              "RelativeToolTip": "MoodKitApp\\MauiProgram.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:53:13.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DiarynamePage.xaml",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Views\\DiarynamePage.xaml",
+              "RelativeDocumentMoniker": "MoodKitApp\\Views\\DiarynamePage.xaml",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Views\\DiarynamePage.xaml",
+              "RelativeToolTip": "MoodKitApp\\Views\\DiarynamePage.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T08:45:59.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\dewdu\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.60\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\Users\\dewdu\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.60\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\dewdu\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.60\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\Users\\dewdu\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.60\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAAAgCAAAAAAAAAAAqwCwCAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-09T12:01:35.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\App.xaml",
+              "RelativeDocumentMoniker": "MoodKitApp\\App.xaml",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\App.xaml",
+              "RelativeToolTip": "MoodKitApp\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T08:47:20.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SignupPage.xaml",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\Views\\SignupPage.xaml",
+              "RelativeDocumentMoniker": "MoodKitApp\\Views\\SignupPage.xaml",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\Views\\SignupPage.xaml",
+              "RelativeToolTip": "MoodKitApp\\Views\\SignupPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T08:39:43.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MoodKitApp.csproj",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\MoodKitApp.csproj",
+              "RelativeDocumentMoniker": "MoodKitApp\\MoodKitApp.csproj",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\MoodKitApp.csproj",
+              "RelativeToolTip": "MoodKitApp\\MoodKitApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-09T08:42:34.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\MoodKitApp\\MoodKitApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "MoodKitApp\\AppShell.xaml",
+              "ToolTip": "C:\\MoodKitApp\\MoodKitApp\\AppShell.xaml",
+              "RelativeToolTip": "MoodKitApp\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T08:47:26.11Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
