@@ -54,7 +54,7 @@ Once the app launches, you can begin logging your daily emotions and reviewing y
 
 | 🏠 Home | ✍️ Mood Entry | 📅 Mood Tracker | 📊 Home Result 
 |:--:|:--:|:--:|:--:|
-| ![Home](MoodKitApp/MoodKitApp/MoodKitApp/Resources/Images/home.png) | ![Mood Entry](MoodKitApp/MoodKitApp/MoodKitApp/Resources/Images/moodentry.png) | ![Mood Tracker](MoodKitApp/MoodKitApp/MoodKitApp/Resources/Images/moodtracker.png) | ![Home Result](MoodKitApp/MoodKitApp/MoodKitApp/Resources/Images/home-result.png)
+| ![Home](MoodKitApp/MoodKitApp/Resources/Images/home.png) | ![Mood Entry](MoodKitApp/MoodKitApp/Resources/Images/moodentry.png) | ![Mood Tracker](MoodKitApp/MoodKitApp/Resources/Images/moodtracker.png) | ![Home Result](MoodKitApp/MoodKitApp/Resources/Images/home-result.png)
 
 > Each screen shows a different part of the MoodKit experience — from daily logging to mood statistics. 🌙
 
