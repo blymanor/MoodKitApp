@@ -7,12 +7,12 @@ This project was created as a learning and practice app for mobile development a
 
 ## ✨ Features
 
-🧠 **Daily Mood Tracking** – Add, edit, or delete your daily mood entries easily.
-📊 **Mood Statistics Dashboard** – Visualize your emotional trends using simple charts and summaries.
-💬 **Personal Notes** – Write down short notes or reasons behind each mood.
-🎨 **Calming & Minimal UI** – Soft color palette inspired by mental wellness apps for better user comfort.
-🌤 **Offline Access** – Store your data locally on your device (no external server required).
-📱 **Cross-platform Support** – Works on Android, iOS, and Windows devices via .NET MAUI.
+* 🧠 **Daily Mood Tracking** – Add, edit, or delete your daily mood entries easily.
+* 📊 **Mood Statistics Dashboard** – Visualize your emotional trends using simple charts and summaries.
+* 💬 **Personal Notes** – Write down short notes or reasons behind each mood.
+* 🎨 **Calming & Minimal UI** – Soft color palette inspired by mental wellness apps for better user comfort.
+* 🌤 **Offline Access** – Store your data locally on your device (no external server required).
+* 📱 **Cross-platform Support** – Works on Android, iOS, and Windows devices via .NET MAUI.
 
 ---
 
