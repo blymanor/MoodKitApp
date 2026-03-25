@@ -7,12 +7,12 @@ This project was created as a learning and practice app for mobile development a
 
 ## ✨ Features
 
-* 🧠 **Daily Mood Tracking** – Add, edit, or delete your daily mood entries easily.
-* 📊 **Mood Statistics Dashboard** – Visualize your emotional trends using simple charts and summaries.
-* 💬 **Personal Notes** – Write down short notes or reasons behind each mood.
-* 🎨 **Calming & Minimal UI** – Soft color palette inspired by mental wellness apps for better user comfort.
-* 🌤 **Offline Access** – Store your data locally on your device (no external server required).
-* 📱 **Cross-platform Support** – Works on Android, iOS, and Windows devices via .NET MAUI.
+- 🧠 **Daily Mood Tracking** – Add, edit, or delete your daily mood entries easily.
+- 📊 **Mood Statistics Dashboard** – Visualize your emotional trends using simple charts and summaries.
+- 💬 **Personal Notes** – Write down short notes or reasons behind each mood.
+- 🎨 **Calming & Minimal UI** – Soft color palette inspired by mental wellness apps for better user comfort.
+- 🌤 **Offline Access** – Store your data locally on your device (no external server required).
+- 📱 **Cross-platform Support** – Works on Android, iOS, and Windows devices via .NET MAUI.
 
 ---
 
@@ -38,7 +38,7 @@ git clone https://github.com/blymanor/MoodKitApp.git
 
 ### 2️⃣ Open the project
 
-Open the solution file (`MoodKit.sln`) in **Visual Studio 2022** (or newer).
+Open the solution file (`MoodKitApp.sln`) in **Visual Studio 2022** (or newer).
 
 ### 3️⃣ Build and Run
 
@@ -50,11 +50,11 @@ Once the app launches, you can begin logging your daily emotions and reviewing y
 
 ---
 
-## 🖼️ Screenshots 
+## 🖼️ Screenshots
 
-| 🏠 Home | ✍️ Mood Entry | 📅 Mood Tracker | 📊 Home Result 
-|:--:|:--:|:--:|:--:|
-| ![Home](MoodKitApp/MoodKitApp/Resources/Images/home.png) | ![Mood Entry](MoodKitApp/MoodKitApp/Resources/Images/moodentry.png) | ![Mood Tracker](MoodKitApp/MoodKitApp/Resources/Images/moodtracker.png) | ![Home Result](MoodKitApp/MoodKitApp/Resources/Images/home-result.png)
+|              🏠 Home               |                 ✍️ Mood Entry                 |                  📅 Mood Tracker                  |                  📊 Home Result                  |
+| :--------------------------------: | :-------------------------------------------: | :-----------------------------------------------: | :----------------------------------------------: |
+| ![Home](Resources/Images/home.png) | ![Mood Entry](Resources/Images/moodentry.png) | ![Mood Tracker](Resources/Images/moodtracker.png) | ![Home Result](Resources/Images/home-result.png) |
 
 > Each screen shows a different part of the MoodKit experience — from daily logging to mood statistics. 🌙
 
@@ -70,13 +70,13 @@ The goal of this project is to create a lightweight emotional diary that encoura
 ## ✍️ Developer Note
 
 > Designed & Developed by **Tipparida Rujisunkuntorn**
-> * 🎨 UI/UX Design: [Figma Prototype](https://www.figma.com/proto/mWFOxUqXToT4DbF7TKxukN/MoodKit?page-id=0%3A1&node-id=2-106)
-> * 💻 Development: C# / XAML / .NET MAUI
-> * 🧩 Learning Focus: Mobile App Architecture, MVVM, and UI Binding
+>
+> - 🎨 UI/UX Design: [Figma Prototype](https://www.figma.com/proto/mWFOxUqXToT4DbF7TKxukN/MoodKit?page-id=0%3A1&node-id=2-106)
+> - 💻 Development: C# / XAML / .NET MAUI
+> - 🧩 Learning Focus: Mobile App Architecture, MVVM, and UI Binding
 
 ---
 
 ## 🎉 Happy Mood Tracking!
 
 Stay mindful. Stay balanced. 🌙✨
-

@@ -1,0 +1,27 @@
+# Build output
+bin/
+obj/
+
+# User-specific
+*.user
+*.suo
+*.sln.docstates
+*.userprefs
+
+# IDE
+.vs/
+.vscode/
+*.swp
+*.swo
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
