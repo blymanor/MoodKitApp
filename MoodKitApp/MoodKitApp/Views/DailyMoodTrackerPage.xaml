@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MoodKitApp.Views.DailyMoodTrackerPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:models="clr-namespace:MoodKitApp.Models">
+    <Grid RowDefinitions="Auto,*">
+        <Label
+            x:Name="DateLabel"
+            Margin="0,0,0,20"
+            FontAttributes="Bold"
+            FontSize="20"
+            HorizontalOptions="Center"
+            Text="March 2025 AD" />
+
+        <CollectionView
+            x:Name="DailyMoodEntriesCollectionView" Grid.Row="1"
+            ItemsSource="{Binding DailyEntries}"
+            SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:MoodRecord">
+                    <VerticalStackLayout Padding="10,0">
+
+                         <!--  Title Bar with Menu  -->
+                        <Grid
+                            Padding="15,10"
+                            ColumnDefinitions="Auto,*,Auto"
+                            VerticalOptions="Center">
+
+                            <!--  Diary Icon  -->
+                            <Image
+                                Grid.Column="0"
+                                HeightRequest="35"
+                                Source="diary.png"
+                                VerticalOptions="Center" />
+
+                            <!--  Diary Name  -->
+                            <Label
+                                Grid.Column="1"
+                                Margin="5,0"
+                                FontAttributes="Bold"
+                                FontFamily="PlusJakartaSans"
+                                FontSize="14"
+                                HorizontalOptions="Start"
+                                Text="{Binding DiaryName, StringFormat='{0}\'s diary'}"
+                                TextColor="Black"
+                                VerticalOptions="Center" />
+
+                            <!--  Menu Icon  -->
+                            <ImageButton
+                                Grid.Column="2"
+                                Padding="10"
+                                Clicked="OnEditDeleteClicked"
+                                CommandParameter="{Binding .}"
+                                HeightRequest="10"
+                                HorizontalOptions="End"
+                                Source="menu.png" VerticalOptions="Center"
+                                WidthRequest="10" />
+                        </Grid>
+
+                        <!--  Entry Card  -->
+                        <Border
+                            Margin="15,5"
+                            Padding="20"
+                            BackgroundColor="#F3F6FC"
+                            StrokeThickness="0">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="20" />
+                            </Border.StrokeShape>
+
+                            <Grid
+                                ColumnDefinitions="*,Auto"
+                                RowDefinitions="Auto,Auto,Auto,Auto"
+                                RowSpacing="10">
+
+                                <!--  Row 0: Date + Feeling  -->
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    FontSize="12"
+                                    Text="{Binding CreatedAt, StringFormat='{0:ddd, dd MMM}'}" 
+                                    TextColor="Gray"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    FontAttributes="Bold"
+                                    FontSize="12"
+                                    HorizontalOptions="End"
+                                    Text="Feeling"
+                                    TextColor="{Binding FeelingColor}" VerticalOptions="Center" />
+                                <Label
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    Margin="0,-50,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="17"
+                                    HorizontalOptions="End"
+                                    Text="{Binding FeelingLabel}"
+                                    TextColor="#30459D"
+                                    VerticalOptions="Center" />
+
+                                <!--  Row 1: Emoji + Stars  -->
+                                <HorizontalStackLayout
+                                    Grid.Row="1"
+                                    Grid.ColumnSpan="2" 
+                                    Padding="5"
+                                    Spacing="10"
+                                    VerticalOptions="Center">
+                                    <StackLayout
+                                        Orientation="Vertical" Spacing="2"
+                                        VerticalOptions="Center">
+                                        <Image
+                                            HeightRequest="16"
+                                            IsVisible="{Binding Star1Source}" Source="{Binding Star1Source}" />
+                                        <Image
+                                            HeightRequest="16"
+                                            IsVisible="{Binding Star2Source}" Source="{Binding Star2Source}" />
+                                        <Image
+                                            HeightRequest="16"
+                                            IsVisible="{Binding Star3Source}" Source="{Binding Star3Source}" />
+                                    </StackLayout>
+                                    <Image
+                                        HeightRequest="80"
+                                        Source="{Binding MoodEmojiSource}"
+                                        VerticalOptions="Start"
+                                        WidthRequest="80" />
+                                </HorizontalStackLayout>
+
+                                <!--  Row 2: Description  -->
+                                <Label
+                                    Grid.Row="1" Grid.ColumnSpan="2"
+                                    Margin="0,50,0,0"
+                                    FontFamily="PlusJakartaSans"
+                                    FontSize="14"
+                                    HorizontalOptions="End"
+                                    HorizontalTextAlignment="End"
+                                    LineBreakMode="TailTruncation"
+                                    Text="{Binding Description}"
+                                    TextColor="Black"
+                                    VerticalOptions="Start"
+                                    WidthRequest="200" />
+
+                                <!--  Row 3: Image  -->
+                                <Image
+                                    Grid.Row="2" Grid.ColumnSpan="2"
+                                    Margin="0,10,0,-10"
+                                    Aspect="AspectFit"
+                                    HeightRequest="100"
+                                    HorizontalOptions="Center"
+                                    IsVisible="{Binding HasImage}"
+                                    Source="{Binding ImagePath}" />
+                            </Grid>
+                        </Border>
+
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Label
+            x:Name="NoEntriesLabel" Grid.Row="1"
+            Text="No mood entries yet."
+            IsVisible="False" HorizontalOptions="Center"
+            VerticalOptions="Center"
+            FontSize="16"
+            TextColor="Gray" />
+
+        <AbsoluteLayout Grid.Row="0" Grid.RowSpan="2" IsVisible="{Binding IsOverlayVisible}">
+            <ContentView
+                AbsoluteLayout.LayoutBounds="0,0,1,1"
+                AbsoluteLayout.LayoutFlags="All"
+                BackgroundColor="#809B9B9B">
+                <VerticalStackLayout
+                    Padding="0,0,0,20"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Fill"
+                    Spacing="15"
+                    VerticalOptions="End">
+
+                    <Border
+                        Margin="20,0"
+                        BackgroundColor="#4868EC"
+                        HorizontalOptions="Fill"
+                        StrokeShape="RoundRectangle 20"
+                        StrokeThickness="0">
+
+                        <VerticalStackLayout Padding="10,5" Spacing="1">
+
+                            <Grid Padding="10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Image
+                                    HeightRequest="20"
+                                    Source="edit.png" VerticalOptions="Center"
+                                    WidthRequest="20" />
+                                <Label
+                                    Grid.Column="1"
+                                    Margin="10,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontFamily="PlusJakartaSans"
+                                    Text="Edit"
+                                    TextColor="White"
+                                    VerticalOptions="Center" />
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnEditClicked" />
+                                </Grid.GestureRecognizers>
+                            </Grid>
+
+                            <Grid Padding="10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Image
+                                    HeightRequest="20"
+                                    Source="delete.png" VerticalOptions="Center"
+                                    WidthRequest="20" />
+                                <Label
+                                    Grid.Column="1"
+                                    Margin="10,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontFamily="PlusJakartaSans"
+                                    Text="Delete"
+                                    TextColor="White"
+                                    VerticalOptions="Center" />
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnDeleteClicked" />
+                                </Grid.GestureRecognizers>
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Border>
+
+                    <Button
+                        Margin="20,0,20,0"
+                        BackgroundColor="#4868EC"
+                        Clicked="OnCancelClicked"
+                        CornerRadius="25"
+                        FontAttributes="Bold"
+                        FontFamily="PlusJakartaSans"
+                        HorizontalOptions="Fill"
+                        Text="Cancel"
+                        TextColor="White" />
+                </VerticalStackLayout>
+            </ContentView>
+        </AbsoluteLayout>
+    </Grid>
+</ContentPage>
