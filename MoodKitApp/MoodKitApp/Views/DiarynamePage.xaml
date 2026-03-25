@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MoodKitApp.Views.DiarynamePage">
+
+    <VerticalStackLayout 
+        Spacing="15" 
+        Padding="40,0"
+        VerticalOptions="Start">
+
+        <Label Text="Decorate your diary cover"
+               FontAttributes="Bold"
+               FontFamily="PlusJakartaSans"
+               FontSize="24"
+               HorizontalOptions="Center" />
+        
+        <Image Source="diary.png"
+               WidthRequest="300"
+               HeightRequest="300"
+               HorizontalOptions="Center" />
+
+        <Label
+                Text="Diary Name"
+                FontFamily="PlusJakartaSans"
+                FontAttributes="Bold"
+                FontSize="18"/>
+            <Border BackgroundColor="#F0F0F0"
+                    HeightRequest="45"     
+                    Padding="10,0"         
+                    StrokeThickness="0">   
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="DiaryNameEntry"
+                       Placeholder="Enter your diary name"
+                       BackgroundColor="Transparent" 
+                       VerticalOptions="Center"/>   
+            </Border>
+
+        <Button x:Name="StartJourneyButton"
+                Text="Start my journey"
+                FontFamily="PlusJakartaSans"
+                TextColor="White"
+                BackgroundColor="#4868EC"
+                CornerRadius="25"
+                HeightRequest="50"
+                Margin="0,20,0,0"
+                Clicked="StartJourneyButton_Clicked" />
+
+
+    </VerticalStackLayout>
+
+</ContentPage>

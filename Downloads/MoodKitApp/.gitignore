@@ -1,0 +1,30 @@
+# Build results
+bin/
+obj/
+*.apk
+*.ipa
+
+# User-specific files
+*.user
+*.suo
+.vs/
+.vscode/
+
+# IDE files
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
